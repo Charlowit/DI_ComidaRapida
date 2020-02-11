@@ -17,9 +17,12 @@ namespace ComidaRapida
         public Form1()
         {
             InitializeComponent();
-            comida = new ArrayList();
             carrito = new ArrayList();
             controlInicio1.BringToFront();
+            ToolTip toolTip1 = new System.Windows.Forms.ToolTip();
+            toolTip1.SetToolTip(button2, "Carrito");
+            toolTip1.IsBalloon = true;
+            toolTip1.InitialDelay = 500000;
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)

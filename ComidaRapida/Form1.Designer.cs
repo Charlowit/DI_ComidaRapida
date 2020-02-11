@@ -96,6 +96,7 @@
             // 
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(0, 311);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(175, 64);
@@ -109,6 +110,7 @@
             // 
             this.btnComplementos.FlatAppearance.BorderSize = 0;
             this.btnComplementos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnComplementos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnComplementos.Location = new System.Drawing.Point(0, 247);
             this.btnComplementos.Name = "btnComplementos";
             this.btnComplementos.Size = new System.Drawing.Size(175, 64);
@@ -121,6 +123,7 @@
             // 
             this.btnBebidas.FlatAppearance.BorderSize = 0;
             this.btnBebidas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBebidas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBebidas.Location = new System.Drawing.Point(0, 183);
             this.btnBebidas.Name = "btnBebidas";
             this.btnBebidas.Size = new System.Drawing.Size(175, 64);
@@ -133,11 +136,12 @@
             // 
             this.btnMenu.FlatAppearance.BorderSize = 0;
             this.btnMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMenu.Location = new System.Drawing.Point(0, 119);
             this.btnMenu.Name = "btnMenu";
             this.btnMenu.Size = new System.Drawing.Size(175, 64);
             this.btnMenu.TabIndex = 1;
-            this.btnMenu.Text = "Hamburgesas";
+            this.btnMenu.Text = "Hamburguesas";
             this.btnMenu.UseVisualStyleBackColor = true;
             this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
             // 
